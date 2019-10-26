@@ -1,0 +1,30 @@
+[default]
+region = eu-west-1
+output = json
+s3 =
+    endpoint_url = http://localhost:4572
+s3api =
+    endpoint_url = http://localhost:4572
+apigateway =
+    endpoint_url = http://localhost:4567
+cloudformation = 
+    endpoint_url = http://localhost:4581
+cloudwatch =
+    endpoint_url = http://localhost:4582
+dynamodb =
+    endpoint_url = http://localhost:4569
+es = 
+    endpoint_url = http://localhost:4578
+iam = 
+    endpoint_url = http://localhost:4593 
+lambda = 
+    endpoint_url = http://localhost:4574
+route53 =
+    endpoint_url = http://localhost:4580
+sts =
+    endpoint_url = http://localhost:4592
+ec2 =
+    endpoint_url = http://localhost:4597
+
+[plugins]
+endpoint = awscli_plugin_endpoint
